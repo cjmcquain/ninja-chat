@@ -11,6 +11,9 @@
           </li>
         </ul>
       </div>
+      <div class="card-action">
+        <input type="text">
+      </div>
     </div>
   </div>
 </template>
@@ -26,4 +29,17 @@ export default {
 </script>
 
 <style>
+.chat h2 {
+  font-size: 2.6em;
+  margin-bottom: 40px;
+}
+
+.chat span {
+  font-size: 1.4em;
+}
+
+.chat .time {
+  display: block;
+  font-size: 1.2em;
+}
 </style>
